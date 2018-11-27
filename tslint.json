@@ -2,7 +2,8 @@
   "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
   "rules": {
     "no-console": false,
-    "ordered-imports": false
+    "ordered-imports": false,
+    "interface-name": [true, "never-prefix"]
   },
   "linterOptions": {
     "exclude": [
